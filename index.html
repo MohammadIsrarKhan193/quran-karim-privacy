@@ -45,13 +45,13 @@
 <ul>
   <li>your bookmarks, last-read position (surah, ayah and page), favourite surahs, prayer tracker, tasbeeh counts and saved duas;</li>
   <li>your reading preferences (theme, font size, translation language, reciter, reading mode);</li>
-  <li>your last detected location (coordinates and city name) and about two weeks of prayer times, so prayer times and adhan alerts still work without internet or GPS;</li>
-  <li>your adhan settings (voice, length, and per-prayer adhan, vibration and reminder choices) and your daily-reminder setting;</li>
+  <li>your last detected location (coordinates and city name) and about two weeks of prayer times, so prayer times and prayer notifications still work without internet or GPS;</li>
+  <li>your prayer notification settings (per-prayer notification, vibration and reminder choices) and your daily-reminder setting;</li>
   <li>recitation audio files you have listened to, saved on your phone so they can be replayed without internet.</li>
 </ul>
 <p>This data is removed when you clear the App's data or uninstall the App.</p>
-<p><strong>Quran content built into the App.</strong> The Arabic Quran text, translations and adhan audio are packaged inside the App and work without internet.</p>
-<p><strong>Notifications and alarms.</strong> If you enable adhan notifications, the App schedules alarms and notifications on your device at prayer times, and may play the adhan audio through a short foreground service. If you use the daily reminder, a local notification is shown at 8:00 AM. All of these are created on your device and are not sent to us. They are restored after your phone restarts.</p>
+<p><strong>Quran content built into the App.</strong> The Arabic Quran text and translations are packaged inside the App and work without internet.</p>
+<p><strong>Notifications and alarms.</strong> If you enable prayer notifications, the App schedules notifications on your device at prayer times, with optional vibration and optional silent reminders. The App does not play sound for these notifications. If you use the daily reminder, a local notification is shown at 8:00 AM. All of these are created on your device and are not sent to us. They are restored after your phone restarts.</p>
 <p><strong>Sharing.</strong> When you share or copy an ayah, only the text you choose is passed to the app you select (for example WhatsApp) or copied to your clipboard. We do not receive it.</p>
 
 <h2>4. Third-party services</h2>
@@ -62,7 +62,7 @@
   <tr><td>quranenc.com</td><td>Pashto translation, if you download or refresh it</td><td>Surah requested</td></tr>
   <tr><td>everyayah.com</td><td>Audio recitation (some reciters)</td><td>Reciter, surah / ayah requested</td></tr>
   <tr><td>cdn.islamic.network</td><td>Audio recitation (Mishary Alafasy)</td><td>Ayah number requested</td></tr>
-  <tr><td>aladhan.com</td><td>Prayer times (about two weeks at a time)</td><td>Your coordinates or selected city, month and year</td></tr>
+  <tr><td>aladhan.com</td><td>Prayer times (about two weeks at a time, so notifications keep working offline)</td><td>Your coordinates or selected city, month and year</td></tr>
   <tr><td>OpenStreetMap Nominatim</td><td>Showing your city name</td><td>Your coordinates</td></tr>
   <tr><td>ipapi.co</td><td>Approximate location for the Qibla compass, only if GPS is unavailable</td><td>Your IP address</td></tr>
   <tr><td>Google Fonts</td><td>Downloading the App's text fonts</td><td>Standard font request (IP address)</td></tr>
@@ -72,12 +72,11 @@
 <table>
   <tr><th>Permission</th><th>Why</th></tr>
   <tr><td>Location (precise / approximate)</td><td>Prayer times and Qibla direction (only while the App is open)</td></tr>
-  <tr><td>Notifications</td><td>Adhan, prayer reminders and the daily reminder</td></tr>
-  <tr><td>Alarms &amp; reminders (exact alarms)</td><td>So the adhan fires at the exact prayer time</td></tr>
-  <tr><td>Foreground service (media playback)</td><td>Play the adhan audio when it is time, even when the phone is locked</td></tr>
-  <tr><td>Run at startup</td><td>Re-schedule your adhan alerts after the phone restarts</td></tr>
+  <tr><td>Notifications</td><td>Prayer-time notifications, reminders and the daily reminder</td></tr>
+  <tr><td>Alarms &amp; reminders (exact alarms)</td><td>So prayer notifications appear at the exact prayer time</td></tr>
+  <tr><td>Run at startup</td><td>Re-schedule your prayer notifications after the phone restarts</td></tr>
   <tr><td>Internet / network state</td><td>Load audio recitation, tafsir and prayer times</td></tr>
-  <tr><td>Vibrate / wake lock</td><td>Adhan vibration and uninterrupted audio playback</td></tr>
+  <tr><td>Vibrate / wake lock</td><td>Prayer notification vibration and uninterrupted recitation playback</td></tr>
 </table>
 
 <h2>6. Content and credits</h2>
